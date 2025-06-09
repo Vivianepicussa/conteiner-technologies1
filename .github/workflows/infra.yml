@@ -1,9 +1,10 @@
-name: 'Deploy App'
+
+name: 'Deploy Infra'
 
 on:
   push:
     branches:
-      - main
+      - Infra
 
 env:
   DESTROY: false
